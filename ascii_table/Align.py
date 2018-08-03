@@ -1,0 +1,3 @@
+class Align:
+    LEFT = "<"
+    CENTER = "^"
