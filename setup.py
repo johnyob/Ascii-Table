@@ -6,7 +6,7 @@ packages = [
 
 setuptools.setup(
     name="ascii-table",
-    version="0.0.1",
+    version="0.0.2",
     author="Alistair O'Brien",
     author_email="alistair.o'brien@ellesmere.com",
     description="An simple json to ascii table Python package.",
