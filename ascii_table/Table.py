@@ -15,7 +15,7 @@ class Table:
             } for column in self._header.get_children()
         ]
 
-        assert reduce(lambda x, y: x == y, map(lambda x: x["Height"], self._columns))
+        assert len(set(map(lambda x: x["Height"], self._columns))) == 1
         self._height = self._columns[0]["Height"]
 
     def __repr__(self):
